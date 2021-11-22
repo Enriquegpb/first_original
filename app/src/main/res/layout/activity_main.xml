@@ -7,6 +7,13 @@
     android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/girl"
+        android:scaleType="fitStart"
+        >
+
     <!--    <TextView
         android:id="@+id/usuario"
         android:layout_width="wrap_content"
@@ -23,6 +30,9 @@
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="280dp" />-->
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width=""
+        android:layout_height=""
     <EditText
         android:id="@+id/text_usuario"
         android:layout_width="0dp"
@@ -31,6 +41,7 @@
         android:hint="Ususario"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        app:start
         app:layout_constraintBottom_toTopOf="@+id/text_pwd"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -62,11 +73,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="348dp" />
+        app:layout_constraintGuide_begin="358dp" />
 
     <Button
         android:id="@+id/log"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="372dp"
         android:text="logearse"
@@ -78,11 +89,10 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Button"
-        android:textColor="@color/purple_500"
+        android:text="Registrarse"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.514"
@@ -95,6 +105,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Todavía no tienes cuenta?Registrese"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/text_pwd"
         app:layout_constraintHorizontal_bias="0.105"
