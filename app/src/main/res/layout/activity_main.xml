@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
     <!--    <TextView
@@ -24,7 +25,7 @@
 
     <EditText
         android:id="@+id/text_usuario"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Ususario"
@@ -38,7 +39,7 @@
 
     <EditText
         android:id="@+id/text_pwd"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="504dp"
         android:ems="10"
@@ -46,7 +47,6 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/text_usuario"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
 
@@ -73,24 +73,33 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.56"
-        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/text_pwd" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="382dp"
         android:textColor="@color/purple_500"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/log"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Todavía no tienes cuenta?Registrese"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="466dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_pwd"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="@+id/text_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.182" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
