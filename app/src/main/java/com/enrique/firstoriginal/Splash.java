@@ -21,7 +21,7 @@ public class Splash extends AppCompatActivity {
 
 
         //implements and starts animation
-        ImageView thunder = findViewById(R.id.imageView2);
+        ImageView thunder = findViewById(R.id.imgbackground);
         //Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
         //thunder.startAnimation(myanim);
 
