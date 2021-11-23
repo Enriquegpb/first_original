@@ -26,11 +26,11 @@ public class Splash extends AppCompatActivity {
         //thunder.startAnimation(myanim);
 
         //    Glide for loading girls
-        ImageView mSea = findViewById(R.id.backView);
+        ImageView mSea = findViewById(R.id.imgbackground);
 
         Glide.with(this)
-                .load("https://images.unsplash.com/photo-1565214975484-3cfa9e56f914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1482&q=80")
-//                .load(R.drawable.girl)
+                //.load("https://images.unsplash.com/photo-1565214975484-3cfa9e56f914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1482&q=80")
+                .load(R.drawable.girl)
                 .transition(DrawableTransitionOptions.withCrossFade(10))
                 .centerCrop()
 //                .placeholder(new ColorDrawable(this.getResources().getColor(R.color.fucsia_200)))
