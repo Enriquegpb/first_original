@@ -3,6 +3,8 @@ package com.enrique.firstoriginal;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +18,11 @@ public class MainLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        ImageView mGirl = findViewById(R.id.imgbackground);
+        ImageView fan2 = (ImageView) findViewById(R.id.logo);
+        Animation myanim2= AnimationUtils.loadAnimation(this, R.anim.fadein_login);
+        fan2.startAnimation(myanim2);
+
+        ImageView mGirl = findViewById(R.id.girl);
 
         Glide.with(this)
               //.load("https://images.unsplash.com/photo-1565214975484-3cfa9e56f914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1482&q=80")

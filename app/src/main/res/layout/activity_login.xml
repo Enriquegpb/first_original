@@ -62,9 +62,8 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="36dp"
                 android:ems="10"
                 android:hint="Ususario"
                 android:inputType="textPersonName"
@@ -84,7 +83,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <EditText
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Contraseña"
@@ -107,7 +106,7 @@
 
     <Button
         android:id="@+id/registrarse"
-        android:layout_width="300dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:onClick="openSignup"
         android:text="Registrarse"

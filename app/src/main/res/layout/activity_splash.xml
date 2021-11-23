@@ -7,14 +7,14 @@
     android:background="@drawable/gradient"
     tools:context=".Splash">
     <ImageView
-        android:id="@+id/imgbackground"
+        android:id="@+id/girl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
     <ImageView
-        android:id="@+id/logosplash"
+        android:id="@+id/logo"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="100dp"
@@ -35,9 +35,9 @@
         android:text="FiRST"
         android:textColor="@android:color/white"
         android:textSize="50sp"
-        app:layout_constraintEnd_toEndOf="@id/logosplash"
-        app:layout_constraintStart_toStartOf="@id/logosplash"
-        app:layout_constraintTop_toBottomOf="@+id/logosplash">
+        app:layout_constraintEnd_toEndOf="@id/logo"
+        app:layout_constraintStart_toStartOf="@id/logo"
+        app:layout_constraintTop_toBottomOf="@+id/logo">
 
     </TextView>
 </androidx.constraintlayout.widget.ConstraintLayout>
