@@ -19,13 +19,13 @@ public class MainLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ImageView fan2 = (ImageView) findViewById(R.id.logo);
-        Animation myanim2= AnimationUtils.loadAnimation(this, R.anim.fadein_login);
+        Animation myanim2 = AnimationUtils.loadAnimation(this, R.anim.fadein_login);
         fan2.startAnimation(myanim2);
 
         ImageView mGirl = findViewById(R.id.girl);
 
         Glide.with(this)
-              //.load("https://images.unsplash.com/photo-1565214975484-3cfa9e56f914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1482&q=80")
+                //.load("https://images.unsplash.com/photo-1565214975484-3cfa9e56f914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1482&q=80")
                 .load(R.drawable.girl)
                 .transition(DrawableTransitionOptions.withCrossFade(100))
 
@@ -34,6 +34,7 @@ public class MainLogin extends AppCompatActivity {
                 //.circleCrop()
                 .into(mGirl);
     }
+
     public void openMain(View v) {
         Intent intent = new Intent(MainLogin.this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

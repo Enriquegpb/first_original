@@ -5,5 +5,126 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Signup">
+    <ImageView
+        android:id="@+id/girl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+
+        >
+        <!--android:src="@drawable/hipman"-->
+    </ImageView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        >
+        <!--android:background="@drawable/gradient2"-->
+    </View>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <ImageView
+        android:id="@+id/logosignup"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="56dp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--android:src="@drawable/ic_fan"-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til1signup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/logosignup"
+        android:layout_marginTop="40dp"
+
+        app:boxBackgroundColor="#4DE1F2FF"
+
+        >
+        <!--app:startIconDrawable="@drawable/ic_email_foreground"-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+
+            android:maxLines="1">
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til2signup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/til1signup"
+        android:layout_marginTop="10dp"
+
+        app:boxBackgroundColor="#4DE1F2FF"
+
+        >
+        <!--app:startIconDrawable="@drawable/ic_account_foreground"-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User"
+            android:background="@color/whitealpha"
+
+            android:maxLines="1">
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til3signup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/guideline1"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+
+        app:layout_constraintTop_toBottomOf="@id/til2signup"
+        android:layout_marginTop="10dp"
+
+        app:boxBackgroundColor="#4DE1F2FF"
+        >
+        <!--app:startIconDrawable="@drawable/ic_lock_foreground"-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:maxLines="1">
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button2"
+
+        android:text="Register"
+        android:onClick="openMain2"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/til3signup"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        />
+    <!--style="@style/buttonreversesignup"-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

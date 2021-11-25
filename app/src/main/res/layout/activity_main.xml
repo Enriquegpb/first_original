@@ -62,11 +62,9 @@
         <!--        -->
 
         <WebView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:id="@+id/vistaweb"
-            >
-        </WebView>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></WebView>
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

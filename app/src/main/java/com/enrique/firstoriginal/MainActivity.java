@@ -10,6 +10,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     private SwipeRefreshLayout swipeLayout;
     private WebView miVisorWeb;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,11 +28,12 @@ public class MainActivity extends AppCompatActivity {
         swipeLayout.setOnRefreshListener(mOnRefreshListener);
 
         //la vista dentro es un WebView con permiso para zoom
-        miVisorWeb=(WebView) findViewById(R.id.vistaweb);
+        miVisorWeb = (WebView) findViewById(R.id.vistaweb);
         miVisorWeb.getSettings().setBuiltInZoomControls(true);
         miVisorWeb.loadUrl("https://thispersondoesnotexist.com");
 
     }
+
     protected SwipeRefreshLayout.OnRefreshListener
             mOnRefreshListener = new SwipeRefreshLayout.OnRefreshListener() {
         @Override
