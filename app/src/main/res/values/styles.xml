@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- "buttonreverse parece ser que es transparente porque no tiene color de fondo -->
+    <style name="buttonreverse" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+
+        <item name="android:textColor">@android:color/white</item>
+
+        <item name="cornerRadius">4dp</item>
+        <item name="strokeColor">@android:color/white</item>
+    </style>
+
+    <style name="buttonreversesignup" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+
+        <item name="android:textColor">@color/purple_700</item>
+
+        <item name="cornerRadius">4dp</item>
+        <item name="strokeColor">@color/purple_700</item>
+    </style>
+
+    <style name="buttonLoginBox" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+    </style>
+</resources>
