@@ -44,7 +44,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:srcCompat="@drawable/mancuerna" />
+        android:src="@drawable/mancuerna"/>
 
     <LinearLayout
         android:id="@+id/linear"
@@ -124,7 +124,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/registrarse" />
+        app:layout_constraintTop_toBottomOf="@id/registrarse"
+        android:textColor="@color/white"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

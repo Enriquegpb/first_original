@@ -20,7 +20,7 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         openApp(true);
-
+        //getSupportActionBar().hide();
 
         //implements and starts animation
         ImageView fan = findViewById(R.id.logo);

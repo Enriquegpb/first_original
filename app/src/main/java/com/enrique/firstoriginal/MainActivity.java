@@ -173,6 +173,4 @@ public class MainActivity extends AppCompatActivity {
 
     //logo fuera del splash de fondo
     //poner tipografía personalizada splash
-    //splash y el login quitar el actionbar
-    // texto blanco
 }
