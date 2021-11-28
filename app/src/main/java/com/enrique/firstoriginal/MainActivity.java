@@ -169,8 +169,5 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
 
     }
-
-
     //logo fuera del splash de fondo
-    //poner tipografía personalizada splash
 }

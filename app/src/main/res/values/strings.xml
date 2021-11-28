@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">WeSports</string>
     <string name="action_settings">action_settings</string>
+    <string name="wesports">WESPORTS</string>
 </resources>

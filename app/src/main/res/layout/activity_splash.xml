@@ -32,13 +32,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="536dp"
-        android:fontFamily="@font/fredericka_the_great"
-        android:text="WESPORTS"
+        android:fontFamily="@font/rubik"
+        android:text="@string/wesports"
         android:textColor="@android:color/white"
         android:textSize="45sp"
         app:layout_constraintEnd_toEndOf="@id/logo"
         app:layout_constraintStart_toStartOf="@id/logo"
-        app:layout_constraintTop_toBottomOf="@+id/logo">
-
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        >
     </TextView>
 </androidx.constraintlayout.widget.ConstraintLayout>
