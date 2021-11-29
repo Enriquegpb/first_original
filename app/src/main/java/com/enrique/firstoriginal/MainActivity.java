@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         swipeLayout.setOnRefreshListener(mOnRefreshListener);
 
         //la vista dentro es un WebView con permiso para zoom
-        miVisorWeb = (WebView) findViewById(R.id.vistaweb);
+        miVisorWeb = findViewById(R.id.vistaweb);
         miVisorWeb.getSettings().setBuiltInZoomControls(true);
         miVisorWeb.loadUrl("https://thispersondoesnotexist.com");
 
@@ -169,5 +169,4 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
 
     }
-    //logo fuera del splash de fondo
 }

@@ -4,13 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/drawable/candado.xml" value="0.1111111111111111" />
         <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/drawable/gradient.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/drawable/ic_baseline_accessibility_24.xml" value="0.21354166666666666" />
         <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/font/familiafuentes.xml" value="0.109375" />
         <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/font/fontrubik.xml" value="0.1" />
         <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/font/fredericka_the_great.xml" value="0.12239583333333333" />
-        <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/layout/activity_main.xml" value="0.12" />
         <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/layout/activity_signup.xml" value="0.176" />
         <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/layout/activity_splash.xml" value="0.136" />
         <entry key="..\:/Users/kiketazo/AndroidStudioProjects/FirstOriginal/app/src/main/res/menu/menu_appbar.xml" value="0.1" />
