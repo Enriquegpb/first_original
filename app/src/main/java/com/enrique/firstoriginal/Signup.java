@@ -1,22 +1,24 @@
 package com.enrique.firstoriginal;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Display;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 public class Signup extends AppCompatActivity {
 Button btnsumit;
+EditText correo,usuario,contraseña;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,20 +38,28 @@ Button btnsumit;
                 //.circleCrop()
                 .into(mGirl);
          btnsumit=(Button) findViewById(R.id.enviaregistro);
+         correo=(EditText) findViewById(R.id.regcorreo);
+         usuario=(EditText) findViewById(R.id.reguser);
+         contraseña=(EditText) findViewById(R.id.regpwd);
 
          btnsumit.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {
-                 Toast toast2;
-                 toast2 = Toast.makeText(getApplicationContext(),
+                 Toast t;
+                 t = Toast.makeText(getApplicationContext(),
                          "Registro completado", Toast.LENGTH_SHORT);
-                 toast2.show();
+                 t.show();
+                 correo.setText("");
+                 usuario.setText("");
+                 contraseña.setText("");
+                 openLogin(view);
              }
          });
     }
-
-
-
+    public void openLogin(View view){
+        Intent intent=new Intent(Signup.this, MainLogin.class);
+        startActivity(intent);
+    }
     public void onClick(View v) {
         Intent intent=new Intent (Signup.this, MainActivity.class);
         startActivity(intent);
