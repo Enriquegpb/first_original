@@ -38,16 +38,18 @@
         app:layout_constraintGuide_percent="0.8" />
 
     <!--android:background="@color/yellow_login"-->
-    <ImageView
+    <TextView
         android:id="@+id/logo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="56dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:fontFamily="@font/rubik"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+        android:text="@string/wesports"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/mancuerna"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linear"

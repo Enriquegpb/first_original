@@ -2,18 +2,21 @@ package com.enrique.firstoriginal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 public class Signup extends AppCompatActivity {
-
+Button btnsumit;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +35,19 @@ public class Signup extends AppCompatActivity {
                 //.placeholder(new ColorDrawable(this.getResources().getColor(R.color.fucsia_200)))
                 //.circleCrop()
                 .into(mGirl);
+         btnsumit=(Button) findViewById(R.id.enviaregistro);
+
+         btnsumit.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                 Toast toast2;
+                 toast2 = Toast.makeText(getApplicationContext(),
+                         "Registro completado", Toast.LENGTH_SHORT);
+                 toast2.show();
+             }
+         });
     }
+
 
 
     public void onClick(View v) {

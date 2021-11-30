@@ -21,9 +21,6 @@ public class MainLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         Objects.requireNonNull(getSupportActionBar()).hide();
-        ImageView fan2 = (ImageView) findViewById(R.id.logo);
-        Animation myanim2 = AnimationUtils.loadAnimation(this, R.anim.fadein_login);
-        fan2.startAnimation(myanim2);
 
         ImageView mGirl = findViewById(R.id.girl);
 
