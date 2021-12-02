@@ -68,6 +68,4 @@ EditText correo,usuario,contraseña;
         Intent intent=new Intent(Signup.this,MainActivity.class);
         startActivity(intent);
     }
-
-
 }
