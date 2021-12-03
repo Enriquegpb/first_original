@@ -47,7 +47,7 @@ simulando los perfiles de nuestros usuarios para formar grupos de deportistas.
 
 ![](img/activitymainscreenshot.png)
 
-### menú y ventana emergente
+### Menú y ventana emergente
 
 En el mismo main podremos observar que aparece un app bar con distintas opciones,
 que lanzarán: mensajes, menús despegables y ventanas emergentes y de dialogo.
