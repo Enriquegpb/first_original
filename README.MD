@@ -1,13 +1,16 @@
 ## WeSports
-Es una aplicacion de encuntros deportistas,eventos,gymnasios,etc que los clientes
-siempre podrán utilizar en cualquier momento y lugar que quieran hacer deportes.
-## Logo de la Aplicación
-Se compone por un fondo energético de color naranja(que recuerda al amancer o al atardecer)
+Es una aplicación de encuentros deportistas, eventos, gimnasios, etc ... que los clientes
+siempre podrán utilizar en cualquier momento y lugar que quieran hacer deportes en la ciudad de Madrid y en cualquier municipio de la comunidad de Madrid. También es una aplicación
+que monitoriza tus progresos para alcanzar tus objetivos fitness.
+## Icono de la Aplicación
+Se compone por un fondo energético de color naranja (que recuerda al amanecer o al atardecer), así nuestros usuarios enfocarán el uso de los servicios
+de la aplicación en las horas de luz y conseguir además un atractivo de la aplicación. Gracias nuestro logotipo que consiste en una mancuerna para motivar
+a los deportistas fortalecerse y desarrollarse físicamente.
 
 ![](img/logo.png)
 
-El objetivo de la ventana de nuestro Splahs es motivar a los ususarios de la aplicacion
-a poder instalársela para poder hacer cualquier deporte en cualquier lugar.
+El objetivo de la ventana de nuestro Splash es motivar a los usuarios de la aplicación
+a instalársela para poder hacer cualquier deporte en cualquier lugar.
 
 ![](img/splash.png)
 
@@ -22,27 +25,27 @@ pulsando al botón Signup.
 ![](img/log.png)
 
 ## Signup
-En nuestra activity de regsitro los usuarios podrán registrarse con unos registros
+En nuestra activity de registro los usuarios podrán registrarse con unos registros
 muy sencillos de completar.
 
 
 ![](img/signup.png)
 
-Al completar se nuestro registro nuestro registro se cierra volviendo al login con un mensaje de la apliación
-informándo al usuario que su regsitro ha sido completado(mediante un Toast)
+Al completar se nuestro registro nuestro registro se cierra volviendo al login con un mensaje de la aplicación
+informando al usuario que su registro ha sido completado (mediante un Toast)
 
 
 ![](img/loginaftersignup.png)
 
-En nuestro main tenemos un reflesh que nos carga imagenes de personas
+En nuestro main tenemos un reflesh que nos carga imágenes de personas
 simulando los perfiles de nuestros usuarios para formar grupos de deportistas
 
 ![](img/activitymainscreenshot.png)
 
-### Menu y ventana emergente
+### menú y ventana emergente
 
 En el mismo main podremos Observar que aparece un app bar con distintas opciones
-que lanzarán mensajes, menus despegables y ventanas emergentes y de dialogo.
+que lanzarán mensajes, menús despegables y ventanas emergentes y de dialogo.
 
 ![](img/settings.png)
 ![](img/copy.png)
