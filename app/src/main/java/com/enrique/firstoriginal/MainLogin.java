@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -21,6 +22,11 @@ public class MainLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         Objects.requireNonNull(getSupportActionBar()).hide();
+
+        //animacion llamada
+        TextView fan2 = (TextView) findViewById(R.id.logo);
+        Animation myanim2= AnimationUtils.loadAnimation(this, R.anim.fadein_login);
+        fan2.startAnimation(myanim2);
 
         ImageView mGirl = findViewById(R.id.girl);
 
