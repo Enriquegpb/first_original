@@ -13,11 +13,11 @@ a poder instalársela para poder hacer cualquier deporte en cualquier lugar.
 
 
 ## Animación
-
+![](img/gifanimado.gif)
 ## Login
 Al cargar la activity del login nuestra aplicación introduce a nuestros usuarios al mundo del fitness
 y del gimnasio. Para poder registrarnos en nuestra aplicación hay que acceder a registro y rellenarlo
-pulsando al boton Signup.
+pulsando al botón Signup.
 
 ![](img/log.png)
 
