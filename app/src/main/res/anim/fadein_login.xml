@@ -7,8 +7,4 @@
         android:toAlpha="1.0"
         android:repeatMode="reverse"
         android:repeatCount="infinite"/>
-
-
-
-
 </set>
