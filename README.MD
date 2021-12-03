@@ -1,7 +1,8 @@
-## WeSports
+# WeSports
 Es una aplicación de encuentros deportistas, eventos, gimnasios, etc ... que los clientes
 siempre podrán utilizar en cualquier momento y lugar que quieran hacer deportes en la ciudad de Madrid y en cualquier municipio de la comunidad de Madrid. También es una aplicación
 que monitoriza tus progresos para alcanzar tus objetivos fitness.
+
 ## Icono de la Aplicación
 Se compone por un fondo energético de color naranja (que recuerda al amanecer o al atardecer), así nuestros usuarios enfocarán el uso de los servicios
 de la aplicación en las horas de luz y conseguir además un atractivo de la aplicación. Gracias nuestro logotipo que consiste en una mancuerna para motivar
@@ -14,8 +15,10 @@ a instalársela para poder hacer cualquier deporte en cualquier lugar.
 
 ![](img/splash.png)
 
+### Animación
+Además en este activity tiene cargada una imación en el logitipo que motiva a nuestros los usuarios
+a coger sus mancuernas y entrenar.
 
-## Animación
 ![](img/giftanimado.gif)
 ## Login
 Al cargar la activity del login nuestra aplicación introduce a nuestros usuarios al mundo del fitness
@@ -31,21 +34,23 @@ muy sencillos de completar.
 
 ![](img/signup.png)
 
-Al completar se nuestro registro nuestro registro se cierra volviendo al login con un mensaje de la aplicación
-informando al usuario que su registro ha sido completado (mediante un Toast)
+Al completar el registro pulsando al boton enviar, vuelve al login con un mensaje de la aplicación
+informando al usuario que su registro ha sido completado (mediante un Toast).  Así los usarios podrán registrarse
+e iniciar sesión en la aplicación para poder aprovechar todas sus funcionales, ventajas, facilidades, para cumplir sus objetivos
+deportivos.
 
 
 ![](img/loginaftersignup.png)
 
-En nuestro main tenemos un reflesh que nos carga imágenes de personas
-simulando los perfiles de nuestros usuarios para formar grupos de deportistas
+En nuestro main tenemos un reflesh, que nos carga imágenes de personas,
+simulando los perfiles de nuestros usuarios para formar grupos de deportistas.
 
 ![](img/activitymainscreenshot.png)
 
 ### menú y ventana emergente
 
-En el mismo main podremos Observar que aparece un app bar con distintas opciones
-que lanzarán mensajes, menús despegables y ventanas emergentes y de dialogo.
+En el mismo main podremos observar que aparece un app bar con distintas opciones,
+que lanzarán: mensajes, menús despegables y ventanas emergentes y de dialogo.
 
 ![](img/settings.png)
 ![](img/copy.png)
