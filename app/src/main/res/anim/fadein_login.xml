@@ -4,13 +4,11 @@
     <alpha
         android:duration="1000"
         android:fromAlpha="0.0"
-        android:toAlpha="1.0" />
+        android:toAlpha="1.0"
+        android:repeatMode="reverse"
+        android:repeatCount="infinite"/>
 
-    <rotate
-        android:fromDegrees="0"
-        android:duration="3000"
-        android:toDegrees="360"
-        android:pivotX="50%"
-        android:pivotY="50%"
-        />
+
+
+
 </set>
