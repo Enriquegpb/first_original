@@ -56,3 +56,18 @@ que lanzarán: mensajes, menús despegables y ventanas emergentes y de dialogo.
 ![](img/copy.png)
 ![](img/menudespegable.png)
 ![](img/alertdialog.png)
+
+## Control de Versiones
+El Control de versiones se ha llevado a cabo mediante Git y Github. Podéis consultar la evolución de la aplicación y sus distintas ramas
+de las cuales la rama por defecto es esta, la del AlertDialog que es la último que hemos implementado a nuestra apliación
+
+### Esquema commits y ramas Github
+
+![](img/esquemagithub.png)
+
+### Rama colaboración
+La animación del login a sido una aportación del desarrollador: Manuel Arias Mateos.
+Ha incorporado una animación al nombre de la aplicación de nuestro logín, programando
+que el texto parpadé simulando la respiración de nuestros deportistas ususarios de la aplicación.
+![](img/animacioncolaboracion.gif)
+
