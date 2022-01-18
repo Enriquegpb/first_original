@@ -2,7 +2,6 @@ package com.enrique.firstoriginal;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Display;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -18,7 +17,7 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 public class Signup extends AppCompatActivity {
 Button btnsumit;
-EditText correo,usuario,contraseña;
+EditText correo,usuario,passwd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +40,7 @@ EditText correo,usuario,contraseña;
          btnsumit=(Button) findViewById(R.id.enviaregistro);
          correo=(EditText) findViewById(R.id.regcorreo);
          usuario=(EditText) findViewById(R.id.reguser);
-         contraseña=(EditText) findViewById(R.id.regpwd);
+         passwd=(EditText) findViewById(R.id.regpwd);
 
          btnsumit.setOnClickListener(new View.OnClickListener() {
              @Override
@@ -52,7 +51,7 @@ EditText correo,usuario,contraseña;
                  t.show();
                  correo.setText("");
                  usuario.setText("");
-                 contraseña.setText("");
+                 passwd.setText("");
                  openLogin(view);
              }
          });
