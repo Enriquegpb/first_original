@@ -124,13 +124,12 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("UNDO", new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
-                                Snackbar snackbar1 = Snackbar.make(mLayout, "Action is restored!", Snackbar.LENGTH_SHORT);
+                                Snackbar snackbar1 = Snackbar.make(mLayout, "Action is restored!", Snackbar.LENGTH_LONG);
                                 snackbar1.show();
                             }
                         });
 
                 snackbar.show();
-
 
                 return true;
             case R.id.item2:
