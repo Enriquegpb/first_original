@@ -20,10 +20,12 @@
         android:id="@+id/botton_app_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="bottom"
+        android:layout_gravity="bottom"
         app:fabAlignmentMode="center"
-        app:menu="@menu/menu_appbar"
-        app:navigationIcon="@drawable/ic_burger"/>
+        app:menu="@menu/bottom_app_bar_menu"
+        app:navigationIcon="@drawable/ic_burger"
+        app:fabCradleVerticalOffset="10dp"
+        />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
@@ -33,10 +35,8 @@
         android:src="@android:drawable/ic_input_add"
         app:fabSize="normal"
         android:backgroundTint="@color/fucsia"
-        app:layout_anchor="@id/botton_app_bar"/>
-
-
-
+        app:layout_anchor="@id/botton_app_bar"
+        />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

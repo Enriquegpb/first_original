@@ -74,7 +74,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(DialogInterface dialog, int which) {
 
                 // do something like...
-
+                Intent intent = new Intent(MainActivity.this, Bottonbar.class);
+                startActivity(intent);
                 dialog.dismiss();
             }
         });
