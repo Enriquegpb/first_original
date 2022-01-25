@@ -14,12 +14,18 @@
     que no hay mas espacio en la barra-->
     <item
         android:id="@+id/item3"
-        android:title="About us"
+        android:title="Bottom app bar"
 
         app:showAsAction="ifRoom|withText" />
 
     <item
         android:id="@+id/item4"
+        android:title="Bottom Navigation bar"
+
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/item5"
         android:title="Signout"
 
         app:showAsAction="ifRoom|withText" />

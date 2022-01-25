@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstOriginal">
         <activity
+            android:name=".MainBottomNavigation"
+            android:exported="false"
+            android:label="@string/title_activity_main_bottom_navigation"
+            android:theme="@style/Theme.FirstOriginal.NoActionBar" />
+        <activity
             android:name=".Bottonbar"
             android:exported="false" />
         <activity

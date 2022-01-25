@@ -155,6 +155,8 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.item1) {
+//            showAlertDialogButtonClicked(Main.this);
+
             Toast toast = Toast.makeText(this, "Infecting", Toast.LENGTH_LONG);
             toast.show();
 
@@ -163,7 +165,18 @@ public class MainActivity extends AppCompatActivity {
             Toast toast = Toast.makeText(this, "Fixing", Toast.LENGTH_LONG);
             toast.show();
         }
+
+        if (id == R.id.item3) {
+            Intent intent = new Intent(MainActivity.this, MainBottomNavigation.class);
+            startActivity(intent);
+        }
+
         if (id == R.id.item4) {
+            Intent intent = new Intent(this, MainBottomNavigation.class);
+            startActivity(intent);
+        }
+
+        if (id == R.id.item5) {
             showAlertDialogButtonClicked(MainActivity.this);
         }
         return super.onOptionsItemSelected(item);

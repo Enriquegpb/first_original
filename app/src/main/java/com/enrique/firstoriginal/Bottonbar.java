@@ -19,12 +19,12 @@ public class Bottonbar extends AppCompatActivity {
         BottomAppBar bottomAppBar = findViewById(R.id.botton_app_bar);
 
         //click event en el  FAB
-        findViewById(R.id.fab).setOnClickListener(new View.OnClickListener() {
+        /*findViewById(R.id.fab).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Toast.makeText(Bottonbar.this, "FAB Clicked.", Toast.LENGTH_SHORT).show();
             }
-        });
+        });*/
 
         //click event en el Hamburguer menu
         bottomAppBar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -42,10 +42,10 @@ public class Bottonbar extends AppCompatActivity {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
                 switch (item.getItemId()) {
-                    case R.id.heart:
+                    case R.id.add:
                         Toast.makeText(Bottonbar.this, "added to favourites", Toast.LENGTH_SHORT).show();
                         break;
-                    case R.id.search:
+                    case R.id.browse:
                         Toast.makeText(Bottonbar.this, "beginning search", Toast.LENGTH_SHORT).show();
                         break;
                 }
