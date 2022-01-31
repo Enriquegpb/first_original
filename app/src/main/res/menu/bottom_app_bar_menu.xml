@@ -13,7 +13,7 @@
     <item
         android:id="@+id/add"
         android:title="Add"
-        android:icon="@drawable/ic_like"
+        android:icon="@drawable/ic_burger"
         android:contentDescription="none"
         app:showAsAction="always"
         >
@@ -22,7 +22,7 @@
     <item
         android:id="@+id/browse"
         android:title="Browse"
-        android:icon="@drawable/ic_baseline_add_24"
+        android:icon="@drawable/ic_like"
         android:contentDescription="none"
         app:showAsAction="ifRoom"
         />
@@ -30,10 +30,12 @@
     <item
         android:id="@+id/personal"
         android:title="Personal"
-        android:icon="@drawable/ic_burger"
+        android:icon="@drawable/ic_heart"
         android:contentDescription="none"
         app:showAsAction="always"
         >
     </item>
+
+
 
 </menu>

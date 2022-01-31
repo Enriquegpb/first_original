@@ -15,7 +15,6 @@ import com.enrique.firstoriginal.ui.main.SectionsPagerAdapter;
 import com.google.android.material.bottomnavigation.BottomNavigationItemView;
 import com.google.android.material.bottomnavigation.BottomNavigationMenuView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 public class MainBottomNavigation extends AppCompatActivity {
 
     private ActivityMainBottomNavigationBinding binding;
